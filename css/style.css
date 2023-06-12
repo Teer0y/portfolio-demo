@@ -9,13 +9,14 @@ html {
 }
 
 body {
-  
+    background-color: #268fa1;
+    color: aliceblue;
 }
 
 
 /* Typography */ 
 h1 {
-
+    color: aliceblue;
 }
 
 h2 {
@@ -40,4 +41,34 @@ p {
 
 a {
 
+}
+
+/*  NAV  */
+#nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#nav li {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 40px;
+  line-height: 60px;
+}
+
+#nav li:hover {
+  color: aliceblue;
+  transform: scale(1.1);
+  border-bottom: 3px solid aliceblue;
+  /* background-color:blue; */
+  margin-right: 60px;
+  /* transform: rotate(20deg); */
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+/* Page layout */
+.section {
+    min-height: 100vh;
 }
