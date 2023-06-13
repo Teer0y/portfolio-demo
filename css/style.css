@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #268fa1;
+    background-color: #375373;
     color: aliceblue;
 }
 
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-
+    color: aliceblue;
 }
 
 h3 {
@@ -43,11 +43,22 @@ a {
 
 }
 
+/* LOGO */
+#logo {
+  position: fixed;
+  top: 24px;
+  left: 40px;
+  font-size: 32px; ;
+}
 /*  NAV  */
 #nav {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
+}
+
+#nav a {
+    color: aliceblue;
 }
 
 #nav li {
@@ -71,4 +82,16 @@ a {
 /* Page layout */
 .section {
     min-height: 100vh;
+}
+
+#bio {
+    background-image: url('../images/heroimg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.caseStudy {
+  background-color: aquamarine;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
 }
